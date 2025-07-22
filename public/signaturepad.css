@@ -1,0 +1,19 @@
+.signature-container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        #signatureCanvas {
+            border: 1px solid #000;
+            background-color: #f8f8f8;
+            margin: 10px 0;
+        }
+        .btn {
+            padding: 8px 15px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .btn-danger { background-color: #f44336; color: white; }
+        .btn-success { background-color: #4CAF50; color: white; }

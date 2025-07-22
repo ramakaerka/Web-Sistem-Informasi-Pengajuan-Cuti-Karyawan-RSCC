@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 227, 255);
+}
+
+.form {
+    width: 400px;
+    margin: 60px auto;
+    border: solid 1px thistle;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+h3 {
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 3px solid rgb(88, 88, 122);
+    border-radius: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+p {
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: larger;
+    background-color: aliceblue;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 4px solid darkgrey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.button-submit {
+    padding: 10px;
+    margin: 15px 25% 0;
+    width: 50%;
+    box-sizing: border-box;
+    border-bottom: 5px solid rgb(21, 32, 187);
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(70, 140, 219);
+    color: white;
+}
+.button-submit:hover {
+    background-color: rgb(93, 192, 192);
+    border-bottom: 5px solid rgb(97, 97, 97);
+    color:black;
+}

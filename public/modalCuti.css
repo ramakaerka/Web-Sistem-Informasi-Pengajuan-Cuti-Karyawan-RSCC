@@ -1,0 +1,13 @@
+.modal-content {
+    animation: modalopen 0.3s;
+}
+
+@keyframes modalopen {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.table-responsive {
+    max-height: 60vh;
+    overflow-y: auto;
+}

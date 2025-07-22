@@ -1,0 +1,36 @@
+.ui-datepicker .selected-date-highlight a {
+    background: #4CAF50 !important;
+    color: white !important;
+    /* border-radius: 50%; */
+}
+
+.selected-dates-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.selected-dates-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.selected-date {
+    background-color: #c1fccf;
+    padding: 3px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.remove-date {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #e60808;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.remove-date:hover {
+    color: #f44336;
+}

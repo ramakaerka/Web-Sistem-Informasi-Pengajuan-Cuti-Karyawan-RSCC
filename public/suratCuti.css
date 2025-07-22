@@ -1,0 +1,228 @@
+.modal-body .kop-container {
+    display: grid !important; 
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    
+}
+
+.kop-surat {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.kop-container .logo img {
+    width: 110px; /* Ukuran logo lebih kecil */
+    height: auto;
+    display: block;
+    
+}
+
+.kop-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.kop-text h2,
+.kop-text p,
+.kop-text h3 {
+    margin: 0; /* Hilangkan margin bawaan */
+    padding: 0;
+    line-height: 1.2;
+}
+
+.isi-surat {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+}
+.isi-surat .judul h3 {
+    justify-content: center;
+    text-align: center;
+    border: solid 2px black;
+}
+.isi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Pastikan teks sejajar di bagian atas */
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+.isi-container .yth {
+    flex: 1; /* Biarkan kolom kiri menyesuaikan ukuran teks */
+    text-align: left;
+    max-width: 35%; 
+    font-size: large;
+    margin-left: 10%;
+}
+
+.isi-container .yth .izin {
+    font-size: 17px;
+}
+
+.isi-container .profil {
+    flex: 1; /* Kolom kanan mengambil sisa ruang */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: large;
+    margin-right: 0;
+    margin-left: 10%;
+    padding: 0;
+    max-width: 100%;
+    
+}
+#alamat {
+    flex: 1 1 auto; /* Biarkan alamat menyesuaikan lebar */
+    min-width: 0; /* Mencegah alamat melebihi batas */
+    word-wrap: break-word;
+}
+.isi-surat hr{
+    border: 2px solid black;
+    padding: 0;
+}
+
+.isi-alasan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Pastikan teks sejajar di bagian atas */
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+.isi-alasan-container .alasan{
+    flex: 1;
+    text-align: left;
+    margin-left: 60px;
+    max-width: 50%;
+    font-size: large;
+}
+.isi-alasan-container .detail{
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+
+.isi-tgl-pengajuan {
+    display: flex;
+    align-items: flex-start; /* Pastikan teks sejajar di bagian atas */
+    margin-right: 11px;
+    margin-top: 10px;
+    
+}
+.isi-tgl-pengajuan .tgl-setuju {
+    margin-left: 80px;
+
+}
+.isi-tgl-pengajuan .pemohon{
+    flex: 1;
+    text-align: right;
+}
+
+.isi-ttd {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+.isi-ttd .ttd-pemohon {
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+.isi-ttd .ttd-pemohon hr{
+    border: none;
+}
+
+.footer-ttd {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    /* justify-items: space-between; */
+    row-gap: 20;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.footer-ttd hr {
+    border: none;
+}
+.footer-ttd .atasan-langsung {
+ 
+    flex: 1;
+}
+.footer-ttd .atasan-kasi {
+    flex: 1;
+   
+}
+.footer-ttd .atasan-kabag {
+    flex: 1;
+    
+}
+.footer-ttd .atasan-direktur {
+    flex: 1;
+    
+}
+.footer-ttd .hr {
+    flex: 1;
+    
+}
+.alasan-penolakan {
+    justify-content: center;
+}
+.alasan-penolakan p{
+    text-align: center;
+}
+.ttd {
+    text-align: right;
+    margin-top: 50px;
+}
+/* .modal-body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    overflow-y: auto;
+} */
+/* .modal-body .grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+} */
+/* .modal {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    max-width: 1000px; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */
+.modal-dialog {
+    max-width: 100%; /* Sesuaikan lebar modal */
+}
+/* Kontainer Modal */
+.modal-content {
+    width: 100%;
+    padding: 0;
+}
+.kop-surat hr {
+    margin-top: 20px;
+    border: 1px solid black;
+}

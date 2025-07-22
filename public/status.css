@@ -1,0 +1,55 @@
+.container-status {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 2%;
+  }
+  
+  /* .item:nth-child(1),
+  .item:nth-child(2),
+  .item:nth-child(3) {
+    width: 32%;
+    height: 0%;
+  }
+   */
+  .item:nth-child(1) {
+    width: 100%;
+    height: 70%;
+
+  }
+
+  .btn-status-rejected{
+    background-color: rgb(230, 55, 55);
+    color: rgb(255, 255, 255);
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+  }
+  .btn-status-approved{
+    background-color: rgb(83, 224, 102);
+    color: rgb(0, 0, 0);
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .btn-status-pending{
+    background-color: rgb(238, 48, 48);
+    color: rgb(255, 255, 255);
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+  }
+  .btn-status-processing{
+    background-color: rgb(238, 203, 48);
+    color: rgb(0, 0, 0);
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 80%;
+    height: 40px;
+  }

@@ -1,0 +1,26 @@
+.ui-datepicker {
+    z-index: 9999 !important;
+}
+
+.ui-datepicker td.libur a {
+color: red !important;
+font-weight: bold;
+}
+.selected-date {
+    display: inline-block;
+    background: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+#selected-dates-container {
+    margin-top: 10px;
+}
+.ui-datepicker .ui-datepicker-calendar td.disabled-date a {
+    color: #ccc;
+    cursor: not-allowed;
+    background: #f9f9f9;
+}
