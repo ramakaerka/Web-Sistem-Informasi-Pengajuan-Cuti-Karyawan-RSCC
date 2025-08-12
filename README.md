@@ -16,7 +16,7 @@
 | Node.js    | 18 LTS        |
 | npm        | 9.x           |
 | Database   | MySQL 5.7 / MariaDB 10.4 |
-| Laravel    | 12.x          |
+| Laravel    | 10.x          |
 
 ---
 
