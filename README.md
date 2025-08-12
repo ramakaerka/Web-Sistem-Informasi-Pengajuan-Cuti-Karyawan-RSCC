@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## 📋 Minimum Requirements
+
+| Komponen   | Versi Minimal |
+|------------|--------------|
+| PHP        | 8.2           |
+| Composer   | 2.5           |
+| Node.js    | 18 LTS        |
+| npm        | 9.x           |
+| Database   | MySQL 5.7 / MariaDB 10.4 |
+| Laravel    | 12.x          |
+
+---
+
+## Panduan Instalasi (via terminal/bash/cmd)
+1. composer install
+2. npm install
+3. php artisan migrate
+4. php artisan serve
+5. npm run build
+
+Notes : Pastikan PHP, Composer, Node.js, dan npm sudah terinstall.
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
